@@ -1,10 +1,9 @@
-# bayesian-anomaly-and-fault-detection-in-sensor-data
 ![TU Dortmund Logo](assets/TU_Dortmund_logo.png)
 
 ## Bayesian Activity Anomaly (and Fault) Detection Using Wearable Sensor Data
 
-Project carried out as a part of the graded module: 
-On the Theory and Practice of Monte Carlo Simulations 
+This project is carried out as a part of the graded module: 
+On the Theory and Practice of Monte Carlo Simulations (Methods, 4.5 ECTS)
 
 Further, it is classified as an application-oriented topic.
 
