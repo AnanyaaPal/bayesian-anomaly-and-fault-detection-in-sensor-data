@@ -13,10 +13,15 @@ The goal is to implement MCMC for Naïve Bayes classification to the following b
 In the dataset, there are 6 ADL (Activities of Daily Living) - Standing, Sitting, Laying Down, Walking, Walking Upstairs and Walking Downstairs. 
 
 Of these 6 ADLs, one can define:
-- Static Activites: Standing, Sitting, Laying Down
+- Static Activites: Standing, Sitting, Laying Down 
 - Dynamic Activities: Walking, Walking Upstairs, Walking Downstairs
 
 Detailed information about the dataset can be found [here](data/README.txt).
 
+## Specifics of applying the Naïve Bayes algorithm 
+We would classify the 6 ADLs into two classes from [activity labels](data/train/activity_labels.txt):
+- Class 1- Static Activities (includes activities "Standing", "Sitting", "Laying Down") with class labels 4, 5, 6
+- Class 2- Dynamic Activities (includes activities "Walking", "Walking Upstairs", "Walking Downstairs") with class labels 1, 2, 3
 
+Our goal would be to apply Binomial Naive Bayes to our use case. 
 
