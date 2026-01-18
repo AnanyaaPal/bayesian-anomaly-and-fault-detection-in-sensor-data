@@ -23,5 +23,17 @@ We would classify the 6 ADLs into two classes from [activity labels](data/train/
 - Class 1- Static Activities (includes activities "Standing", "Sitting", "Laying Down") with class labels 4, 5, 6
 - Class 2- Dynamic Activities (includes activities "Walking", "Walking Upstairs", "Walking Downstairs") with class labels 1, 2, 3
 
-Our goal would be to apply Binomial Naive Bayes to our use case. 
+Our goal would be to apply Gaussian Naive Bayes to our use case, since on the first descriptive look, it satifies the following (pre-)conditions of G.N.B:
+- features are continuous/numeric
+- no need for feature binning
+- supports binary classification
+
+## Gaussian Naïve Bayes Algorithm
+### Pre-checks:
+- G.N.B works best when:
+    - feature distributions are roughly unimodal per class.
+    - independence assumption is not riughly violated.
+- Plot a histogram per feature per class and normality plots.  
+
+
 
