@@ -1,4 +1,5 @@
 ![TU Dortmund Logo](assets/TU_Dortmund_logo.png)
+![Statistik Faculty Logo](assets/fakultaet_statistik_logo.png)
 
 ## Bayesian Activity Anomaly (and Fault) Detection Using Wearable Sensor Data
 
